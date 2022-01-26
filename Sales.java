@@ -1,6 +1,6 @@
 package com.intfc;
 
-public abstract class Sales implements Transaction1 {
+public abstract class Sales implements Transaction {
 private int stock=1000;
 	@Override
 	public int sale(int qty) {
